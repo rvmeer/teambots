@@ -83,6 +83,7 @@ services:
       TB_OPEN_REGISTRATION: ${TB_OPEN_REGISTRATION:-0}
       TB_ENABLE_DOCS: ${TB_ENABLE_DOCS:-0}
       TB_AUTH_RATE_LIMIT: ${TB_AUTH_RATE_LIMIT:-10}
+      TB_CODING_BOTS: ${TB_CODING_BOTS:-0}
       TB_DATA_DIR: /data
       TB_CLAUDE_CLI: claude
       TB_CLAUDE_CLI_CWD: /data/claude-cli-cwd
